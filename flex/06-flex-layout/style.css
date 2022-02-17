@@ -30,6 +30,15 @@ input {
   margin-bottom: 16px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+
 .header,
 .footer {
   display: flex;
