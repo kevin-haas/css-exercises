@@ -8,7 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
+  
 }
 
 img {
@@ -20,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -28,10 +30,15 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 16px;
+  padding: 0;
 }
 
 a {
@@ -42,4 +49,24 @@ a {
 .header,
 .footer {
   display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: rgb(230, 227, 227);
+}
+
+.content{
+  align-self: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
 }
